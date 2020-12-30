@@ -155,12 +155,25 @@ a {
   justify-content: center;
 }
 .col-element {
-  max-width: 430px;
+  
+  justify-items: center;
+}
+.work-flex {
+  justify-content: center;
+  flex-direction: column-reverse;
+  display: flex;
+  flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
   .hero-flex {
     flex-wrap: nowrap;
     justify-content: space-between;
+  }
+  .work-flex {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction:row;
+    flex-wrap: nowrap;
   }
   .hero-col {
     justify-content: space-between;
@@ -173,8 +186,17 @@ a {
 @media screen and (min-width: 768px) {
   .main-text {
     text-align: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .image-thanks {
+    min-width: 345px;
+    padding-right: 50px;
+    min-height: 300px;
   }
   .main-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: left;
     font-size: 42px;
     line-height: 60px;
@@ -186,16 +208,115 @@ a {
 }
 @media screen and (min-width: 992px) {
   .main-title {
+    margin-top: 30px;
     font-size: 50px;
     line-height: 65px;
+  }
+  .main-text {
+    text-align: left;
+    padding-top: 50px; 
+    padding-bottom: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
   .main-title {
+    margin-top: 0;
     font-size: 56px;
     line-height: 69px;
+  }
+  .main-text {
+    margin: 0;
+    text-align: left;
+    padding-top: 36px; 
+    padding-bottom: 52px;
   }
 }
 .main-title {
   font-style: medium;
+}
+.how-we-work {
+  padding-top: 70px;
+  background: #F1F1F2;
+  padding-bottom: 100px;
+}
+.text-title {
+  font-size: 20px;
+  line-height: 35px;
+  font-style: normal;
+  text-align: center;
+}
+@media screen and (min-width: 576px) {
+  .text-title {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .text-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+    text-align: left;
+  }
+  .col-element {
+    max-width: 430px;
+  }
+  .work-flex {
+    justify-content: space-between;
+  }
+  .how-we-work {
+    justify-content: space-between;
+  }
+  .content-justify {
+    text-align: justify;
+    /* max-width: 340px; */
+  }
+  .hero-col {
+    justify-content: space-between;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .text-title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}
+.gift {
+  padding-top: 100px;
+}
+.holidays {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.holidays-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FAFAFA;
+  width: 270px;
+  margin: 0 auto;
+}
+.holidays-image {
+  max-width: 270px;
+  max-height: 270px;
+}
+.holidays-text {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 75px;
+}
+.holidays-link {
+  padding-bottom: 25px;
+}
+.text-center {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .holidays {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
