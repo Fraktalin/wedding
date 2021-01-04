@@ -478,7 +478,47 @@ a {
   }
 }
 .end-gift {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  
+  padding-top: 40px;
+}
+.end-gift-block {
+  padding: 30px;
+  width: 400px;
+}
+.end-gift-block:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.13);
+}
+.end-gift-block-title {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: bold;
+}
+.end-gift-block-text {
+  font-size: 18px;
+  line-height: 34px;
+}
+.end-gift-block-link {
+  font-size: 14px;
+  line-height: 34px;
+}
+@media screen and (min-width: 768px) {
+  .end-gift-block {
+    width: 650px;
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .end-gift {
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .end-gift-block {
+    width: auto;
+    max-width: 570px;
+    padding: 48px;
+  }
 }
