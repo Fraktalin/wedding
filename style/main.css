@@ -298,6 +298,7 @@ a {
   background: #FAFAFA;
   width: 270px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 .holidays-image {
   max-width: 270px;
@@ -318,5 +319,103 @@ a {
   .holidays {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+}
+.holidays-block:hover {
+  box-shadow:10px 10px 23px 0px rgba(0,0,0,0.2);
+}
+.get-started {
+  background: #f7941e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+}
+.get-started-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 1s;
+}
+.find-gift-now {
+  background: #000;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 18px 25px;
+  border-radius: 5px;
+  border: 1px solid black;
+  animation: radial-pulse 0.5s infinite;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-weight: 18;
+}
+@keyframes radial-pulse {
+  0% {
+    box-shadow: inset 0 0 0 0px rgb(247, 148, 30);
+  }
+  100% {
+    box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+}
+.get-started-plain {
+  display: inline-block
+}
+.how-it-works {
+  margin-bottom: 20px;
+  padding: 18px 18px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-transform: uppercase;
+  background: transparent;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.get-started-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+.get-started-text {
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .get-started {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .get-started-buttons {
+    padding-left: 150px;
+  }
+  .how-it-works,
+  .find-gift-now {
+    margin-top: 5px;
+  }
+  .get-started-title,
+  .get-started-text {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .get-started-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 220px;
+  }
+  .get-started {
+    justify-content: start;
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
+  .how-it-works,
+  .find-gift-now {
+    margin-left: 16px;
   }
 }
