@@ -556,3 +556,59 @@ a {
   font-weight: bold;
   color: #000;
 }
+.line {
+  width: 85%;
+  height: 1px;
+  background: #000;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0;
+}
+.social-link {
+  color: #000;
+}
+.social-item:nth-child(n) {
+  font-size: 38px;
+  position: absolute;
+}
+.social-item:nth-child(1) {
+  top: 0;
+}
+.social-item:nth-child(2) {
+  top: 30px;
+  left: 38%;
+}
+.social-item:nth-child(3) {
+  top: 30px;
+  right: 38%;
+}
+.social-item:nth-child(4) {
+  top: 70px;
+  right: 41%;
+}
+.social-item:nth-child(5) {
+  top: 70px;
+  left: 41%;
+}
+@media screen and (min-width: 768px) {
+  .social-item:nth-child(n) {
+    position: static;
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+}
+.copyright {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.copyright-text {
+  padding-right: 14px;
+}
