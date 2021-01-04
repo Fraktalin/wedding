@@ -419,3 +419,30 @@ a {
     margin-left: 16px;
   }
 }
+.block-photo {
+  margin-top: 50px;
+  background: #231f20;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.photo-text {
+  display: flex;
+  flex-direction: column;
+}
+.photo-sub-title {
+  Font-size: 14px;
+  text-align: center;
+}
+.photo-title {
+  font-size: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+.text-white {
+  color: #fff;
+}
+.photo-link {
+  font-size: 18px;
+  text-align: center;
+}
