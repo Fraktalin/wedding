@@ -4,33 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <meta name="description" content="Struggling to find a gift for your wife or girlfriend? No problem!">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="/fonts/style.css">
+    <link rel="stylesheet" href="/style/main.css">
   </head>
   <body>
     <header class="page-header">
       <div class="container header-flex">
         <a href="#" class="page-logo">
-          <img src="1222" alt="wedding logo">
+          <img src="/images/logo.png" alt="wedding logo">
         </a>
         <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Home</a>
+              <a href="#home" class="main-nav__link">Home</a>
             </li>
             <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">About Us</a>
+              <a href="#about_us" class="main-nav__link">About Us</a>
             </li>
             <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Services</a>
+              <a href="#services" class="main-nav__link">Services</a>
             </li>
             <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Blogs</a>
+              <a href="#blogs" class="main-nav__link">Blogs</a>
             </li>
           </ul>
         </nav>
-        <button class="main-button">gift finder</button>
+        <button class="header-button">gift finder</button>
       </div>
     </header>
+    <main>
+      <section class="hero-section">
+        <div class="container hero-flex">
+          <div class="hero-col col-element">
+            <h1 id="home" class="main-title">Find a gift for your wife or girlfriend</h1>
+            <p class="main-text">
+              Struggling to find a gift for your wife or girlfriend? No problem!
+            </p>
+            <button class="medium-button">Find gift now</button>
+          </div>
+          <div class="hero-col">
+            <img src="/images/wedding-one.jpg" alt="wedding">
+          </div>
+        </div>
+      </section>
+      <section id="about_us" class="how-we-work">
+        <div class="container work-flex">
+          <div class="hero-col">
+            <img class="image-thanks" src="/images/thanks.jpg" alt="thanks in the image">
+          </div>
+          <div class="col-element padding-top"> 
+            <h2 class="text-title">How we work</h2>
+            <p class="main-text text-custom">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
+            <button class="medium-button">Learn More</button>
+          </div>
+        </div>
+      </section>
+      <section class="gift">
+        <div class="container">
+          <h3 id="services" class="text-title text-center">Gifts for all Occasions</h3>
+          <p class="main-text text-center">“Try our web app to find the best gifts for all occasions”</p>
+          <div class="holidays">
+            <div class="holidays-block">
+              <img class="holidays-image" src="/images/birthday.jpg" alt="happy birthday on the ballon">
+              <p class="holidays-text">Birthday</p>
+              <a class="holidays-link" href="/">See More ›</a>
+            </div>
+            <div class="holidays-block">
+              <img class="holidays-image" src="/images/anniversary.jpg" alt="attributes Anniversary">
+              <p class="holidays-text">Anniversary</p>
+              <a class="holidays-link" href="/">See More ›</a>
+            </div>
+            <div class="holidays-block">
+              <img class="holidays-image" src="/images/valentine.jpg" alt="attributes Valentine's Day">
+              <p class="holidays-text">Valentine's Day</p>
+              <a class="holidays-link" href="/">See More ›</a>
+            </div>
+            <div class="holidays-block">
+              <img class="holidays-image" src="/images/Christmas.jpg" alt="attributes Christmas">
+              <p class="holidays-text">Christmas</p>
+              <a class="holidays-link" href="/">See More ›</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="get-started">
+        <div class="container get-started">
+          <div class="get-started-plain">
+            <h3 class="get-started-title">Ready to get started?</h3>
+            <p class="get-started-text">Sign up or contact us</p>
+          </div>
+          <div class="get-started-buttons">
+            <button class="find-gift-now">Find gift now</button>
+            <button class="how-it-works">how it works</button>
+          </div>
+        </div>
+      </section>
+      <section class="end-section">
+        <div class="container">
+          <h3 id="blogs" class="text-title text-center">Our Best Blogs Ever</h3>
+          <p class="main-text text-center">“Try our blog to find the best tips and tricks to select your gift”</p>
+          <div class="block-photo">
+            <img  src="/images/wedding-two.jpg" alt="wedding">
+            <div class="photo-text">
+              <p class="photo-sub-title text-white">Mr. John Doe</p>
+              <p class="photo-title text-white">The best way to wish your wife</p>
+              <a href="/" class="photo-link text-white">Read More</a>
+            </div>
+          </div>
+          <div class="end-gift">
+            <a class="end-gift-block" href="/">
+              <p class="end-gift-block-title">Database to find the gifts for your girlfriend</p>
+              <p class="end-gift-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+              <span class="end-gift-block-link">Read More</span>
+            </a>
+            <a class="end-gift-block" href="/">
+              <p class="end-gift-block-title">How Artificial Intelligence read your mind to find the best gift</p>
+              <p class="end-gift-block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+              <span class="end-gift-block-link">Read More</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__list-item">
+              <a class="footer-nav__list-link" href="/">Home</a>
+            </li>
+            <li class="footer-nav__list-item">
+              <a class="footer-nav__list-link" href="#2">About</a>
+            </li>
+            <li class="footer-nav__list-item">
+              <a href="/">
+                <img src="/images/logo-footer.png" alt="Logo wedding">
+              </a>
+            </li>
+            <li class="footer-nav__list-item">
+              <a class="footer-nav__list-link" href="#3">Service</a>
+            </li>
+            <li class="footer-nav__list-item">
+              <a class="footer-nav__list-link" href="#4">Blog</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="line"></div>
+          <ul class="social">
+            <li class="social-item">
+              <a class="social-link" aria-label="facebook-link" href="//www.facebook.com/">
+                <span class="icon-facebook"></span>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" aria-label="twitter-link" href="//www.twitter.com/">
+                <span class="icon-twitter"></span>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" aria-label="instagram-link" href="//www.instagram.com/">
+                <span class="icon-instagram"></span>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" aria-label="youtube-link" href="//www.youtube.com/">
+                <span class="icon-youtube"></span>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" aria-label="pinterest-link" href="//www.pinterest.com/">
+                <span class="icon-pinterest"></span>
+              </a>
+            </li>
+          </ul>
+          <div class="copyright">
+            <span class="copyright-text">&#169; 2010 — 2020</span>
+            <span>Privacy — Terms</span>
+          </div>
+      </div>
+    </footer>
   </body>
 </html>
